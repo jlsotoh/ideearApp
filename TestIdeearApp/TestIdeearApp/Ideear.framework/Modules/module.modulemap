@@ -1,0 +1,11 @@
+framework module Ideear {
+  umbrella header "Ideear.h"
+
+  export *
+  module * { export * }
+}
+
+module Ideear.Swift {
+    header "Ideear-Swift.h"
+    requires objc
+}
